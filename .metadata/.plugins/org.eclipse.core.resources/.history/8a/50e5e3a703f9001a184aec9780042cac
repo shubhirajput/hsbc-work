@@ -1,0 +1,23 @@
+package com.demo.hw.abstraction;
+
+public class MainApp {
+	
+
+		public static void main(String[] args) {
+		      Bird ref;
+			Parrot p=new Parrot("Green","Red");
+			Eagle e=new Eagle("Black","Black");
+			Duck d= new Duck("White","Orange");
+			
+			ref=p;
+		ref.BodyColor();
+			
+			
+			ref=e;
+			ref.BodyColor();
+			
+			ref=d;
+			ref.BodyColor;
+	}
+
+}

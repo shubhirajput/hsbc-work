@@ -1,0 +1,11 @@
+package com.demo.impl.html;
+import com.demo2.interfaces;
+public class html {
+
+	
+	public void write(String s)
+	{
+		System.out.println("html text"+s);
+		
+	}
+}

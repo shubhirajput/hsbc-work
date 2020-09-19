@@ -1,0 +1,32 @@
+
+public class OverLoadAdder {
+	public void add()
+	{
+		System.out.println("Nothing to add");
+	}
+	
+	public float add(int a,float b)
+	{
+		System.out.println(a+b)
+		
+	}
+	
+	public int add(int a,int b)
+	{
+		System.out.println("int a+int b"+(a+b));
+	}
+	public double add()
+	public double add(doub;)
+	
+	
+
+	public static void main(String[] args) {
+	
+OverLoaderAdder adder=new OverLoaderAdder();
+adder.add();
+adder.add(2,3);
+adder.add(2,3.0f)
+adder.add()
+	}
+
+}

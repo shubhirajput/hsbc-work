@@ -1,0 +1,19 @@
+package com.demo.hw.abstraction;
+
+public class Parrot extends Bird {
+
+	public Parrot(String s1, String s2) {
+		this.color=s1;
+		this.beakcolor=s2;
+		
+	}
+	
+	  public void BodyColor()
+	  {
+		  
+		  System.out.println("Parrot are green");
+	  }
+	
+	
+
+}

@@ -1,0 +1,17 @@
+package com.demo.hw.abstraction;
+
+public class Duck extends Bird {
+
+	public Duck(String s1, String s2) {
+		this.color=s1;
+		this.beakcolor=s2;
+	}
+
+	
+	  public void BodyColor();
+	  {
+		  System.out.println("Ducks are white");
+	  }
+	
+	
+}

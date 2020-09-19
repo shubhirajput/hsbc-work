@@ -1,0 +1,18 @@
+
+public class fac {
+	
+
+	    public static void main(String[] args) {
+
+	        int n= 6;
+	        int fac = 1;
+	        for(int i = 1; i <= n; i++)
+	        {
+	           
+	            fact *= i;
+	        }
+	        System.out.println("Factorial of %d = %d", n, fact);
+	    }
+	}
+
+}

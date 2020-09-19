@@ -1,0 +1,13 @@
+
+public class Big {
+
+	public static void main(String[] args) {
+		int i=args[0];
+		int j=args[i];
+		int k=args[2];
+		int l = k > (i > j ? i : j) ? k : ((i > j) ? i : j);
+		Sytem.out.println("Largest amongst three numbers is="+l);
+
+	}
+
+}

@@ -1,0 +1,36 @@
+
+public class getCityByCode {
+
+	public static void main(String[] args) {
+		int i=2;
+		String m="";
+    if(i==1)
+    {
+    	m="DELHI";
+	return m;
+    }		
+	if(i==2)
+	{
+	m="NOIDA”;"
+	return m;
+	}
+	if(i==3)
+	{
+		m="	Gurgaon"
+		return m;
+	}			
+    if(i==4)
+    {
+    	m=“BANGLORE”;
+    return m;
+    }			
+    else 
+    	{
+    	m="invalidcode";
+    	return m;
+    	}		
+	
+	}
+
+}
+

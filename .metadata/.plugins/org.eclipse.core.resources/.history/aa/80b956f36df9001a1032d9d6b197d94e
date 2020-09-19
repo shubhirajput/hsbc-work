@@ -1,0 +1,25 @@
+package com.demo.interfaces.hw1;
+
+import com.demo.interfaces.hw.EmpDao;
+
+public class EmpDaoMockHibernateImpl implements EmpDao {
+
+	
+	
+	
+	public Emp findById()
+	{
+		
+		System.out.println("Hey Inside find Hibernate");
+	}
+	public String save()
+	{
+		System.out.println("Hey Inside save Hibernate");
+		
+	}
+	public void listAllEmps()
+	{
+		System.out.println("Hey Inside list Hibernate");
+		
+	}
+}

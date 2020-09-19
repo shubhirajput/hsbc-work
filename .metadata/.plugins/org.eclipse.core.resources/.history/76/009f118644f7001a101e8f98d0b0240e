@@ -1,0 +1,13 @@
+
+public class EmpApp {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Emp e=new Emp();
+		e.empId=123;
+		e.empName="Shubhi";
+		e.salary=55000;
+
+	}
+
+}

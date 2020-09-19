@@ -1,0 +1,5 @@
+package com.demo2.interfaces;
+
+public class WriterFac {
+
+}

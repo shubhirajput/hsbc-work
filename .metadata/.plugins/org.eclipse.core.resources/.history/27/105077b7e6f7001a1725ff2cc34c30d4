@@ -1,0 +1,82 @@
+
+public class Emp {
+	int empId;
+	String name;
+
+	public static void main(String[] args) {
+
+		
+		
+
+	}
+
+}
+
+public class EmpDb
+{
+	public EmpDb()
+	{
+		Emp []=new Emp[10];
+		empList[0]=new Emp(100,"Shantanu");
+		empList[1]=new Emp("478","Shubhi");
+		
+	}
+	
+public void search()
+{
+	for(int i=0;i<10;i++)
+	{
+	if(e.empId==478)
+	{
+	e.list();
+	}
+}
+}
+public String add(Emp e)
+{
+           String Message="";
+	for(int i=0;i<empList.length;i++)
+	{
+		
+		if(empList[i]==null) {
+			empList[i]=e;
+			Message="Emp added";
+			break;
+		}
+			
+		else Message= "DB full";
+	}
+		
+	
+	}
+
+public void list()
+{
+	
+for(int i=0;i<10;i++)
+{
+	System.out.println(e.empId);
+	System.out.println(name;)
+	
+}
+
+}
+
+
+
+public static void main(String[] args)
+{
+EmpDb db=new EmpDb();
+Emp e=new Emp(102,"Arun");
+System.out.println.add(db);
+
+
+
+}
+
+
+
+
+
+
+}

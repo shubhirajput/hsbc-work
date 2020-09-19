@@ -1,0 +1,18 @@
+package com.demo.exceptions;
+
+public class ExceptionDemo2 {
+
+	public static void main(String[] args) {
+		try {
+		
+		int[] nums= {1,2,3,4};
+		System.out.println(nums[4]);
+		
+		
+		String[] names=new String[5];
+		names[2].length();// string not populated. null of type string
+		System.out.println("No exceptions found");
+		}
+		
+	}
+}

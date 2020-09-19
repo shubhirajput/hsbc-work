@@ -1,0 +1,5 @@
+package com.demo.interfaces.hw2;
+
+public interface TvRemote {
+
+}

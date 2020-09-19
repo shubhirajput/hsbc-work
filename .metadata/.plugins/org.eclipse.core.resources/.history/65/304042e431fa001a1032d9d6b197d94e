@@ -1,0 +1,12 @@
+package com.demo.impl.decor;
+import com.demo2.interfaces;
+public class decor {
+	
+	public void write(String s)
+	{
+		
+		System.out.println("Decor Text"+s);
+		
+	}
+
+}

@@ -1,0 +1,32 @@
+package org.demo.tools;
+
+public class Calculator {
+	
+	int x,y;
+	public Calculator(int x,int y)
+	{
+		x=20;
+		y=16;
+		
+	}
+	public void add(int a,int b)
+	{    int  c=a+b;
+		System.out.println("a+b=" + c);
+		
+	}
+	
+	public void sub(int a,int b)
+	{
+      int c=a-b;
+      System.out.println("a-b="+c);
+}
+	
+	public void multiply(int a,int b)
+	{
+		
+		int c=a*b;
+		System.out.println("a*b="+c);
+		
+		
+	}
+}

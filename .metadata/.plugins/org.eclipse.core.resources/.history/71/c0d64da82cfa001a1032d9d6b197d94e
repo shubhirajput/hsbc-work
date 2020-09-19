@@ -1,0 +1,5 @@
+package com.demo.interfaces.hw1;
+
+public interface AccountOperationsInterface {
+
+}

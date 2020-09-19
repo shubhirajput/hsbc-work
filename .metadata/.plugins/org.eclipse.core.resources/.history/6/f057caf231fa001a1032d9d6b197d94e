@@ -1,0 +1,13 @@
+package com.demo.impl.plain;
+import com.demo2.interfaces;
+public class plain implements Writer {
+
+	
+	
+	public void write(String s)
+	{
+		
+		System.out.println("Plain Text"+s);
+		
+	}
+}

@@ -1,0 +1,10 @@
+package com.demo.interfaces.hw3;
+
+public class MainTV {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

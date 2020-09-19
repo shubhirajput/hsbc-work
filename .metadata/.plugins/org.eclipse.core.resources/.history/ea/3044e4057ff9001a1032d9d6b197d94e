@@ -1,0 +1,11 @@
+package com.demo.exceptions.demo3;
+
+public class Main {
+
+	
+	public static void main(String[] args)
+	{
+	App a1=new App1();
+	a1.calculate(2,0);
+}
+}

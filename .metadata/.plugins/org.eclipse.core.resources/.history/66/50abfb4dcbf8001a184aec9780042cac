@@ -1,0 +1,5 @@
+package com.demo.impl.oracle;
+
+public class OracleDB {
+
+}

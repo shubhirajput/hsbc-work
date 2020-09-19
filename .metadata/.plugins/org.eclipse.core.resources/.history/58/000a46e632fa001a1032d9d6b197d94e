@@ -1,0 +1,5 @@
+package com.demo.interfaces.text;
+
+public interface Writer {
+
+}

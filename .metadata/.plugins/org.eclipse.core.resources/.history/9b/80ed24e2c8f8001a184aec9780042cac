@@ -1,0 +1,6 @@
+package com.demo.impl.mysql;
+
+public class MyConFactory {
+	
+
+}

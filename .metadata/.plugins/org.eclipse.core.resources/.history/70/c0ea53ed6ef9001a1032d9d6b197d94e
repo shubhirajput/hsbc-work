@@ -1,0 +1,17 @@
+package com.demo.interfaces.hw1;
+
+import com.demo.interfaces.hw.Emp;
+
+public class MainApp {
+
+	public static void main(String[] args) {
+		 EmpDao e=Factory.getConnection(3);
+		 
+		System.out.println(e.EmpfindById());
+		 System.out.println(e.save());
+		 System.out.println(e.listAllEmps());
+	}
+
+}
+
+

@@ -1,0 +1,43 @@
+
+public class StaticEg {
+       static int s=0;
+       int n=10;
+       
+       
+       public void plus()
+       {
+    	   s++;
+    	   n++;
+       }
+       
+       
+       static void plus()
+       {
+    	   
+    	  System.out.println("Value of s="+s);
+    	  //System.out.println("Value of n="+n);
+       }
+       
+       
+       
+       
+       
+       
+	public static void main(String[] args) {
+		StaticEg se1=new StaticEg();
+		StaticEg se2=new StaticEg();
+		se1.plus();
+		
+		System.out.println(se1.s);
+		System.out.println(se1.n);
+		
+		se2.plus();
+		System.out.println(se2.s);
+		System.out.println(se2.n);
+		
+		
+		plus();
+
+	}
+
+}

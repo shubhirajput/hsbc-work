@@ -1,0 +1,12 @@
+package com.demo.inheritance;
+
+public class C extends B {
+
+	public C()
+	{
+		super("Hello");
+		return super();
+		System.out.println("C's constructor");
+		
+	}
+}

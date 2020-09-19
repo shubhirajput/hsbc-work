@@ -1,0 +1,18 @@
+package com.demo.interfaces2.app;
+import com.demo2.interfaces;
+import com.demo2.interfaces;
+import com.demo.impl.decor;
+import com.demo.impl.html;
+import com.demo.impl.plain;
+
+import java.io.Writer;
+
+public class TestApp {
+
+	public static void main(String[] args) {
+		Writer w=WriterFac.getWriter("Decor");
+		w.write("I did it"));
+
+	}
+
+}

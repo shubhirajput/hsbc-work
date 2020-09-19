@@ -1,0 +1,10 @@
+package com.demo.inheritance.demo1;
+
+public class C {
+
+	public C extends B()
+	{
+		System.out.println("C's constructor");
+		
+	}
+}

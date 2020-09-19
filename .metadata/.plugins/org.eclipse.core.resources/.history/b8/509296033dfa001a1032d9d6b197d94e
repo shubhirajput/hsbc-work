@@ -1,0 +1,5 @@
+package com.demo.interfaces.hw6;
+
+public class Factory {
+
+}

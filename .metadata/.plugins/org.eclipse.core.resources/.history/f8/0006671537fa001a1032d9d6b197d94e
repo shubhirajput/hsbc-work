@@ -1,0 +1,5 @@
+package com.demo.interfaces.hw3;
+
+public class Factory {
+
+}

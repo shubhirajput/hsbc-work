@@ -1,0 +1,16 @@
+package com.demo.impl.mysql;
+import com.demo.interfaces.MyConnection;
+public class MySqlDB {
+	
+	public String getConnectionInfo()
+	{
+		
+		return "Connection established Successfully";
+	}
+	
+	public String getDBDetails()
+	{
+		return "MySQL DB 8.3";
+	}
+
+}

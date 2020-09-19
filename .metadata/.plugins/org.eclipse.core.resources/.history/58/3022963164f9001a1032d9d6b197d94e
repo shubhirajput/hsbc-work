@@ -1,0 +1,20 @@
+package com.demo.interfaces.hw1;
+
+import com.demo.interfaces.hw.Emp;
+
+public class MainApp {
+
+	public static void main(String[] args) {
+		 EmpDao e=new Factory.getEmpDao(3);
+		 
+		e.EmpfindById();
+		 e.save();
+		 e.listAllEmps();
+	}
+
+}
+
+
+//public Emp findById(int id);
+//public String save(Emp e);
+//public void listAllEmps();

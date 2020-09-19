@@ -1,0 +1,20 @@
+package com.demo.impl.oracle;
+import com.demo.interfaces.MyConnections;
+public class OracleDB implements MyConnection {
+
+	
+	
+	public String getConnectionInfo()
+	{
+		return "Connection established successfully";
+		
+		
+	}
+	
+	
+	public String getDBDetails()
+	{
+		
+		return "Oracle DB 13c";
+	}
+}

@@ -1,0 +1,10 @@
+package com.demo.client;
+import org.demo.tools.*;
+public class MathTester {
+
+	public static void main(String[] args) {
+	    
+
+	}
+
+}

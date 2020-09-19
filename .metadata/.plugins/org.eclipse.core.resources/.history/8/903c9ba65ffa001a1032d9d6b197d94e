@@ -1,0 +1,22 @@
+package com.demo.hw.abstraction;
+
+public abstract class Bird {
+	
+	String color;
+	String beakcolor;
+	
+	
+	public Bird(String s1,String s2)
+	{
+		this.color=s1;
+		this.beakcolor=s2;
+	}
+	
+	public void BirdFly()
+	{
+		System.out.println("All Birds Fly");
+		
+	}
+	 abstract public String BodyColor();
+
+}
